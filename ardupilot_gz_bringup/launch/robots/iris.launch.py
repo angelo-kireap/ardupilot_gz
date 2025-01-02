@@ -83,6 +83,7 @@ def generate_launch_description():
             "speedup": "1",
             "slave": "0",
             "instance": "0",
+            "home": "CUSAT",
             "defaults": os.path.join(
                 pkg_ardupilot_gazebo,
                 "config",
